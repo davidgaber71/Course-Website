@@ -30,9 +30,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-	text-align: center;
-	    font-size: 14px;
-        padding: 8px;
 }
 
 @media (max-width: 768px) {
@@ -55,5 +52,8 @@ footer {
         padding: 10px;
     }
 
-   
+    footer {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
