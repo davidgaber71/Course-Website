@@ -85,3 +85,57 @@ footer {
     max-width: 700px;
     margin: 0 auto 20px;
 }
+
+/* Start My Courses section */
+.section .table-wrapper {
+  overflow-x: auto;
+}
+
+.section table {
+  width: 100%;          
+  table-layout: fixed;   
+  border-collapse: collapse;
+}
+
+.section table th,
+.section table td {
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
+
+/* For phones */
+@media (max-width: 600px) {
+  .section table th,
+  .section table td {
+    padding: 8px 6px;
+    font-size: 12px;
+  }
+}
+
+table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+th {
+    color: white;
+    background: #194a7a;
+
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: rgba(128, 128, 128, 0.378);
+    transition: .3s;
+}
