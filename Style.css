@@ -57,3 +57,31 @@ footer {
         padding: 8px;
     }
 }
+
+.landing {
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px gray;
+}
+@media (max-width: 768px) {
+    .landing {
+        height: 293px;
+    }
+}
+.intro-text {
+    text-align: center;
+    padding: 40px 20px 0;
+}
+.intro-text h1 {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--main-color);
+}
+.intro-text p {
+    font-size: 19px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
